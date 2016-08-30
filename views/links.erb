@@ -1,0 +1,10 @@
+
+<h1>List of link(s)</h1>
+
+<% if @links %>
+	<% @links.each do |name, url| %>
+		<h3><%=  name%></h3>
+	<%end%>
+<% else %>
+	<h3>This site have no links</h3>
+<% end %>

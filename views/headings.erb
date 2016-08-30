@@ -1,0 +1,10 @@
+
+	<h1>List of heading(s)</h1>
+
+	<% if @links %>
+		<% @heads.each do |head| %>
+			<h3><%= head%></h3>
+		<%end%>
+	<% else %>
+		<h3>This site have no headings</h3>
+	<% end %>
